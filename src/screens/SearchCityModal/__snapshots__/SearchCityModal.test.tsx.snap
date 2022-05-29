@@ -1,0 +1,840 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchCityModal renders SearchCityModal 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderRadius": 30,
+        "elevation": 3,
+        "flexDirection": "row",
+        "marginHorizontal": 20,
+        "paddingHorizontal": 12,
+        "shadowColor": "black",
+        "shadowOffset": Object {
+          "height": 5,
+          "width": 5,
+        },
+        "shadowOpacity": 0.1,
+      }
+    }
+  >
+    <RNSVGSvgView
+      accessibilityRole="image"
+      align="xMidYMid"
+      bbHeight={20}
+      bbWidth={20}
+      fill="#000"
+      focusable={false}
+      height={20}
+      meetOrSlice={0}
+      minX={0}
+      minY={0}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+          },
+          Object {
+            "flex": 0,
+            "height": 20,
+            "width": 20,
+          },
+        ]
+      }
+      vbHeight={512}
+      vbWidth={512}
+      width={20}
+    >
+      <RNSVGGroup
+        fill={4278190080}
+        propList={
+          Array [
+            "fill",
+          ]
+        }
+      >
+        <RNSVGPath
+          d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"
+        />
+      </RNSVGGroup>
+    </RNSVGSvgView>
+    <TextInput
+      accessibilityRole="search"
+      icon={[Function]}
+      onChangeText={[Function]}
+      placeholder="Search City, State"
+      placeholderTextColor="gray"
+      style={
+        Array [
+          Object {
+            "color": "black",
+            "flex": 1,
+          },
+          Object {
+            "marginLeft": 10,
+          },
+        ]
+      }
+      value=""
+    />
+  </View>
+  <RCTScrollView
+    accessibilityRole="list"
+    data={
+      Array [
+        "Abbeville, Louisiana",
+        "Aberdeen, Maryland",
+        "Aberdeen, Mississippi",
+        "Aberdeen, South Dakota",
+        "Aberdeen, Washington",
+        "Abilene, Texas",
+        "Abilene, Kansas",
+        "Abingdon, Virginia",
+        "Abington, Massachusetts",
+        "Absecon, New Jersey",
+        "Accokeek, Maryland",
+        "Acton, Massachusetts",
+        "Acushnet, Massachusetts",
+        "Acworth, Georgia",
+        "Ada, Oklahoma",
+        "Adams, Massachusetts",
+        "Addison, Illinois",
+        "Addison, Texas",
+        "Adelanto, California",
+        "Adelphi, Maryland",
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsVerticalScrollIndicator={true}
+    stickyHeaderIndices={Array []}
+    style={
+      Array [
+        Object {
+          "marginTop": 15,
+        },
+      ]
+    }
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessibilityRole="radio"
+          style={
+            Array [
+              Object {
+                "backgroundColor": undefined,
+              },
+              Object {
+                "borderRadius": 20,
+                "marginHorizontal": 10,
+                "minHeight": 40,
+                "overflow": "hidden",
+              },
+            ]
+          }
+        >
+          <View
+            accessibilityRole="button"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "flex": 1,
+                "justifyContent": "center",
+                "paddingLeft": 20,
+                "paddingVertical": 10,
+              }
+            }
+          >
+            <Text
+              accessibilityRole="text"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 17,
+                    "fontWeight": "500",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                  },
+                ]
+              }
+            >
+              Abbeville, Louisiana
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessibilityRole="radio"
+          style={
+            Array [
+              Object {
+                "backgroundColor": undefined,
+              },
+              Object {
+                "borderRadius": 20,
+                "marginHorizontal": 10,
+                "minHeight": 40,
+                "overflow": "hidden",
+              },
+            ]
+          }
+        >
+          <View
+            accessibilityRole="button"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "flex": 1,
+                "justifyContent": "center",
+                "paddingLeft": 20,
+                "paddingVertical": 10,
+              }
+            }
+          >
+            <Text
+              accessibilityRole="text"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 17,
+                    "fontWeight": "500",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                  },
+                ]
+              }
+            >
+              Aberdeen, Maryland
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessibilityRole="radio"
+          style={
+            Array [
+              Object {
+                "backgroundColor": undefined,
+              },
+              Object {
+                "borderRadius": 20,
+                "marginHorizontal": 10,
+                "minHeight": 40,
+                "overflow": "hidden",
+              },
+            ]
+          }
+        >
+          <View
+            accessibilityRole="button"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "flex": 1,
+                "justifyContent": "center",
+                "paddingLeft": 20,
+                "paddingVertical": 10,
+              }
+            }
+          >
+            <Text
+              accessibilityRole="text"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 17,
+                    "fontWeight": "500",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                  },
+                ]
+              }
+            >
+              Aberdeen, Mississippi
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessibilityRole="radio"
+          style={
+            Array [
+              Object {
+                "backgroundColor": undefined,
+              },
+              Object {
+                "borderRadius": 20,
+                "marginHorizontal": 10,
+                "minHeight": 40,
+                "overflow": "hidden",
+              },
+            ]
+          }
+        >
+          <View
+            accessibilityRole="button"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "flex": 1,
+                "justifyContent": "center",
+                "paddingLeft": 20,
+                "paddingVertical": 10,
+              }
+            }
+          >
+            <Text
+              accessibilityRole="text"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 17,
+                    "fontWeight": "500",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                  },
+                ]
+              }
+            >
+              Aberdeen, South Dakota
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessibilityRole="radio"
+          style={
+            Array [
+              Object {
+                "backgroundColor": undefined,
+              },
+              Object {
+                "borderRadius": 20,
+                "marginHorizontal": 10,
+                "minHeight": 40,
+                "overflow": "hidden",
+              },
+            ]
+          }
+        >
+          <View
+            accessibilityRole="button"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "flex": 1,
+                "justifyContent": "center",
+                "paddingLeft": 20,
+                "paddingVertical": 10,
+              }
+            }
+          >
+            <Text
+              accessibilityRole="text"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 17,
+                    "fontWeight": "500",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                  },
+                ]
+              }
+            >
+              Aberdeen, Washington
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessibilityRole="radio"
+          style={
+            Array [
+              Object {
+                "backgroundColor": undefined,
+              },
+              Object {
+                "borderRadius": 20,
+                "marginHorizontal": 10,
+                "minHeight": 40,
+                "overflow": "hidden",
+              },
+            ]
+          }
+        >
+          <View
+            accessibilityRole="button"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "flex": 1,
+                "justifyContent": "center",
+                "paddingLeft": 20,
+                "paddingVertical": 10,
+              }
+            }
+          >
+            <Text
+              accessibilityRole="text"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 17,
+                    "fontWeight": "500",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                  },
+                ]
+              }
+            >
+              Abilene, Texas
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessibilityRole="radio"
+          style={
+            Array [
+              Object {
+                "backgroundColor": undefined,
+              },
+              Object {
+                "borderRadius": 20,
+                "marginHorizontal": 10,
+                "minHeight": 40,
+                "overflow": "hidden",
+              },
+            ]
+          }
+        >
+          <View
+            accessibilityRole="button"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "flex": 1,
+                "justifyContent": "center",
+                "paddingLeft": 20,
+                "paddingVertical": 10,
+              }
+            }
+          >
+            <Text
+              accessibilityRole="text"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 17,
+                    "fontWeight": "500",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                  },
+                ]
+              }
+            >
+              Abilene, Kansas
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessibilityRole="radio"
+          style={
+            Array [
+              Object {
+                "backgroundColor": undefined,
+              },
+              Object {
+                "borderRadius": 20,
+                "marginHorizontal": 10,
+                "minHeight": 40,
+                "overflow": "hidden",
+              },
+            ]
+          }
+        >
+          <View
+            accessibilityRole="button"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "flex": 1,
+                "justifyContent": "center",
+                "paddingLeft": 20,
+                "paddingVertical": 10,
+              }
+            }
+          >
+            <Text
+              accessibilityRole="text"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 17,
+                    "fontWeight": "500",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                  },
+                ]
+              }
+            >
+              Abingdon, Virginia
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessibilityRole="radio"
+          style={
+            Array [
+              Object {
+                "backgroundColor": undefined,
+              },
+              Object {
+                "borderRadius": 20,
+                "marginHorizontal": 10,
+                "minHeight": 40,
+                "overflow": "hidden",
+              },
+            ]
+          }
+        >
+          <View
+            accessibilityRole="button"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "flex": 1,
+                "justifyContent": "center",
+                "paddingLeft": 20,
+                "paddingVertical": 10,
+              }
+            }
+          >
+            <Text
+              accessibilityRole="text"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 17,
+                    "fontWeight": "500",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                  },
+                ]
+              }
+            >
+              Abington, Massachusetts
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessibilityRole="radio"
+          style={
+            Array [
+              Object {
+                "backgroundColor": undefined,
+              },
+              Object {
+                "borderRadius": 20,
+                "marginHorizontal": 10,
+                "minHeight": 40,
+                "overflow": "hidden",
+              },
+            ]
+          }
+        >
+          <View
+            accessibilityRole="button"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "flex": 1,
+                "justifyContent": "center",
+                "paddingLeft": 20,
+                "paddingVertical": 10,
+              }
+            }
+          >
+            <Text
+              accessibilityRole="text"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 17,
+                    "fontWeight": "500",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                  },
+                ]
+              }
+            >
+              Absecon, New Jersey
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 0,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
+
+exports[`SearchCityModal renders TopRightButton 1`] = `
+<View
+  style={
+    Object {
+      "width": 50,
+    }
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        Object {
+          "elevation": 3,
+          "shadowColor": "black",
+          "shadowOffset": Object {
+            "height": 5,
+            "width": 5,
+          },
+          "shadowOpacity": 0.1,
+        },
+        Object {
+          "backgroundColor": "rgb(0, 122, 255)",
+          "borderRadius": 5,
+          "margin": 0,
+          "paddingVertical": 10,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontWeight": "bold",
+          },
+          Object {
+            "color": "rgb(28, 28, 30)",
+            "marginRight": 0,
+          },
+        ]
+      }
+    >
+      OK
+    </Text>
+  </View>
+</View>
+`;

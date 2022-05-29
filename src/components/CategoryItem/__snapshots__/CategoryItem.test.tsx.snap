@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryItem renders and clicks item 1`] = `
+<View
+  accessibilityRole="checkbox"
+  style={
+    Array [
+      Object {
+        "borderRadius": 35,
+        "height": 100,
+        "marginLeft": 15,
+        "marginVertical": 10,
+        "overflow": "hidden",
+        "width": 70,
+      },
+      Object {
+        "elevation": 3,
+        "shadowColor": "black",
+        "shadowOffset": Object {
+          "height": 5,
+          "width": 5,
+        },
+        "shadowOpacity": 0.1,
+      },
+      Object {
+        "backgroundColor": "#FFF",
+        "marginRight": 0,
+      },
+    ]
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "paddingTop": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderRadius": 25,
+            "height": 45,
+            "justifyContent": "center",
+            "width": 45,
+          },
+          Object {
+            "backgroundColor": "#FFF",
+          },
+        ]
+      }
+    >
+      <Image
+        accessibilityRole="image"
+        source={1234}
+        style={
+          Object {
+            "height": 30,
+            "width": 30,
+          }
+        }
+      />
+    </View>
+    <Text
+      accessibilityRole="text"
+      style={
+        Array [
+          Object {
+            "marginTop": 4,
+          },
+          Object {
+            "color": "#1C1C1E",
+          },
+        ]
+      }
+    >
+      Pasta
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`CategoryItem renders last and active item 1`] = `
+<View
+  accessibilityRole="checkbox"
+  style={
+    Array [
+      Object {
+        "borderRadius": 35,
+        "height": 100,
+        "marginLeft": 15,
+        "marginVertical": 10,
+        "overflow": "hidden",
+        "width": 70,
+      },
+      Object {
+        "elevation": 3,
+        "shadowColor": "black",
+        "shadowOffset": Object {
+          "height": 5,
+          "width": 5,
+        },
+        "shadowOpacity": 0.1,
+      },
+      Object {
+        "backgroundColor": "#c3f229",
+        "marginRight": 15,
+      },
+    ]
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "paddingTop": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderRadius": 25,
+            "height": 45,
+            "justifyContent": "center",
+            "width": 45,
+          },
+          Object {
+            "backgroundColor": "#FFF",
+          },
+        ]
+      }
+    >
+      <Image
+        accessibilityRole="image"
+        source={1234}
+        style={
+          Object {
+            "height": 30,
+            "width": 30,
+          }
+        }
+      />
+    </View>
+    <Text
+      accessibilityRole="text"
+      style={
+        Array [
+          Object {
+            "marginTop": 4,
+          },
+          Object {
+            "color": "#1C1C1E",
+          },
+        ]
+      }
+    >
+      Pasta
+    </Text>
+  </View>
+</View>
+`;

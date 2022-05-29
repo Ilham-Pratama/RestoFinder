@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFoundText renders component with custom text 1`] = `
+<View
+  accessibilityRole="text"
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "marginTop": 5,
+      },
+    ]
+  }
+>
+  <Text
+    color="gray"
+    style={
+      Array [
+        Array [
+          Object {
+            "marginVertical": 15,
+          },
+        ],
+        Object {
+          "color": "gray",
+        },
+      ]
+    }
+  >
+    Here is your text
+  </Text>
+</View>
+`;
+
+exports[`NotFoundText renders component with default text 1`] = `
+<View
+  accessibilityRole="text"
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "marginTop": 5,
+      },
+    ]
+  }
+>
+  <Text
+    color="gray"
+    style={
+      Array [
+        Array [
+          Object {
+            "marginVertical": 15,
+          },
+        ],
+        Object {
+          "color": "gray",
+        },
+      ]
+    }
+  >
+    Oops, couldn't find anything 😢
+  </Text>
+</View>
+`;

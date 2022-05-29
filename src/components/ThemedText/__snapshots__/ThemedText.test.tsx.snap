@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThemedText renders text in dark mode 1`] = `
+<Text
+  style={
+    Array [
+      undefined,
+      Object {
+        "color": "rgb(229, 229, 231)",
+      },
+    ]
+  }
+>
+  Sample Text
+</Text>
+`;
+
+exports[`ThemedText renders text in dark mode with custom colors 1`] = `
+<Text
+  color="#121212"
+  darkModeColor="#f4f4f4"
+  style={
+    Array [
+      undefined,
+      Object {
+        "color": "#f4f4f4",
+      },
+    ]
+  }
+>
+  Sample Text
+</Text>
+`;
+
+exports[`ThemedText renders text in light mode 1`] = `
+<Text
+  style={
+    Array [
+      undefined,
+      Object {
+        "color": "#1C1C1E",
+      },
+    ]
+  }
+>
+  Sample Text
+</Text>
+`;
+
+exports[`ThemedText renders text in light mode with custom colors 1`] = `
+<Text
+  color="#121212"
+  darkModeColor="#f4f4f4"
+  style={
+    Array [
+      undefined,
+      Object {
+        "color": "#121212",
+      },
+    ]
+  }
+>
+  Sample Text
+</Text>
+`;

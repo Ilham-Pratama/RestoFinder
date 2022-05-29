@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders Header 1`] = `
+<Text
+  accessibilityRole="header"
+  style={
+    Array [
+      Array [
+        Object {
+          "fontSize": 22,
+          "fontWeight": "700",
+        },
+        Object {
+          "marginBottom": 10,
+        },
+        Object {
+          "marginHorizontal": 15,
+        },
+      ],
+      Object {
+        "color": "rgb(28, 28, 30)",
+      },
+    ]
+  }
+>
+  Header Example
+</Text>
+`;

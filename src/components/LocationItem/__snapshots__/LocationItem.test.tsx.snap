@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocationItem renders and clicks selected item 1`] = `
+<View
+  accessibilityRole="radio"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#c3f229",
+      },
+      Object {
+        "borderRadius": 20,
+        "marginHorizontal": 10,
+        "minHeight": 40,
+        "overflow": "hidden",
+      },
+    ]
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+        "paddingLeft": 20,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <Text
+      accessibilityRole="text"
+      style={
+        Array [
+          Object {
+            "fontSize": 17,
+            "fontWeight": "500",
+          },
+          Object {
+            "color": "#1C1C1E",
+          },
+        ]
+      }
+    >
+      Houston, Texas
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`LocationItem renders and clicks unselected item 1`] = `
+<View
+  accessibilityRole="radio"
+  style={
+    Array [
+      Object {
+        "backgroundColor": undefined,
+      },
+      Object {
+        "borderRadius": 20,
+        "marginHorizontal": 10,
+        "minHeight": 40,
+        "overflow": "hidden",
+      },
+    ]
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+        "paddingLeft": 20,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <Text
+      accessibilityRole="text"
+      style={
+        Array [
+          Object {
+            "fontSize": 17,
+            "fontWeight": "500",
+          },
+          Object {
+            "color": "#1C1C1E",
+          },
+        ]
+      }
+    >
+      Houston, Texas
+    </Text>
+  </View>
+</View>
+`;

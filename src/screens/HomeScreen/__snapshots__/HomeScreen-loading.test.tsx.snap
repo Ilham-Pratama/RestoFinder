@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders and assert loading state 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      stackPresentation="push"
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    >
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backgroundColor="#FFF"
+        color="#c3f229"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        largeTitleHideShadow={false}
+        title="Welcome"
+        titleColor="#1C1C1E"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "backgroundColor": "#F2F2F2",
+            },
+            undefined,
+          ]
+        }
+      >
+        <RCTSafeAreaView
+          emulateUnlessSupported={true}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <View
+            accessibilityRole="header"
+            style={
+              Array [
+                Object {
+                  "marginHorizontal": 20,
+                },
+                Object {
+                  "marginVertical": 10,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 45,
+                  },
+                  Object {
+                    "color": "#1C1C1E",
+                  },
+                ]
+              }
+            >
+              Grab your
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 45,
+                    "fontWeight": "bold",
+                  },
+                  Object {
+                    "color": "#1C1C1E",
+                  },
+                ]
+              }
+            >
+              delicious meal!
+            </Text>
+          </View>
+          <View
+            accessibilityRole="search"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderRadius": 30,
+                  "elevation": 3,
+                  "flexDirection": "row",
+                  "marginHorizontal": 20,
+                  "paddingHorizontal": 12,
+                  "shadowColor": "black",
+                  "shadowOffset": Object {
+                    "height": 5,
+                    "width": 5,
+                  },
+                  "shadowOpacity": 0.1,
+                }
+              }
+            >
+              <RNSVGSvgView
+                accessibilityRole="image"
+                align="xMidYMid"
+                bbHeight={20}
+                bbWidth={20}
+                fill="#000"
+                focusable={false}
+                height={20}
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    Object {
+                      "flex": 0,
+                      "height": 20,
+                      "width": 20,
+                    },
+                  ]
+                }
+                vbHeight={512}
+                vbWidth={512}
+                width={20}
+              >
+                <RNSVGGroup
+                  fill={4278190080}
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                >
+                  <RNSVGPath
+                    d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+              <Text
+                accessibilityRole="text"
+                style={
+                  Array [
+                    Object {
+                      "marginLeft": 15,
+                      "marginVertical": 15,
+                      "paddingRight": 10,
+                    },
+                    Object {
+                      "color": "black",
+                    },
+                  ]
+                }
+              >
+                New York, New York
+              </Text>
+            </View>
+          </View>
+          <Text
+            style={
+              Array [
+                Array [
+                  Object {
+                    "fontSize": 20,
+                    "fontWeight": "bold",
+                  },
+                  Object {
+                    "marginTop": 10,
+                  },
+                  Object {
+                    "marginHorizontal": 20,
+                  },
+                ],
+                Object {
+                  "color": "#1C1C1E",
+                },
+              ]
+            }
+          >
+            Top Restaurants
+          </Text>
+          <View
+            accessibilityRole="progressbar"
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "marginTop": 20,
+                },
+              ]
+            }
+          >
+            <ActivityIndicator
+              size="large"
+            />
+          </View>
+        </RCTSafeAreaView>
+      </View>
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

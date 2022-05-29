@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BusinessCategory renders BusinessCategory 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "rgb(255, 255, 255)",
+      },
+      Object {
+        "paddingHorizontal": 15,
+      },
+      Object {
+        "paddingVertical": 20,
+      },
+    ]
+  }
+>
+  <Text
+    accessibilityRole="text"
+    color="gray"
+    darkModeColor="#f4f4f4"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "900",
+        },
+        Object {
+          "color": "gray",
+        },
+      ]
+    }
+  >
+    $$$$
+  </Text>
+  <Text
+    accessibilityRole="summary"
+    style={
+      Array [
+        Array [
+          Object {
+            "fontSize": 18,
+            "fontWeight": "500",
+          },
+          Object {
+            "marginTop": 10,
+          },
+        ],
+        Object {
+          "color": "rgb(28, 28, 30)",
+        },
+      ]
+    }
+  >
+    American (New), French, Wine Bars
+  </Text>
+</View>
+`;
